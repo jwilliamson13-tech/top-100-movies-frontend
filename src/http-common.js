@@ -1,7 +1,7 @@
 import axis from "axios";
 
 export default axis.create({
-  baseURL: "http://localhost:3000/api/v1",
+  baseURL: "https://jwilliamson-top-100-movies-api.herokuapp.com/api/v1",
   headers:{
     "Content-type":"application/json"
   }
